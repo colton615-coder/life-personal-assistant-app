@@ -1,0 +1,14 @@
+# Dependencies
+/node_modules
+/life-assistant-pwa/node_modules
+
+# Configuration and Secrets (CRITICAL)
+.env
+/life-assistant-monolith/.env
+
+# Database file
+/life-assistant-monolith/data/*.sqlite
+
+# Build output
+/life-assistant-pwa/dist
+/dist
